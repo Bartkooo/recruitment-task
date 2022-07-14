@@ -415,6 +415,7 @@
   height: 340px;
   color: white;
   display: flex;
+  width: 100%;
 }
 
 .img-size-s {
