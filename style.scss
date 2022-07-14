@@ -15,14 +15,15 @@
   width: 100%;
   display: flex;
   justify-content: center;
-}
+  
+  .elements {
+    width: 65vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.nav-elements {
-  width: 65vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .logo {
@@ -74,15 +75,15 @@
   height: 650px;
   display: flex;
   justify-content: center;
-}
-
-.home-elements {
-  width: 60vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
+  
+  .elements {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .home-center {
@@ -120,12 +121,13 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  
+  .elements {
+    width: 60vw;
+    display: flex;
+  }
 }
 
-.menu-elements {
-  width: 60vw;
-  display: flex;
-}
 
 .food-menu, .today-special {
   width: 30vw;
@@ -180,92 +182,95 @@
 
 .special1 {
   box-shadow: 77px 29px 91px -9px rgba(0, 0, 0, 0.3);
+  
+  .image {
+    background-color: #7D8587;
+    color: white;
+    width: 320px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
-.special1-image {
-  background-color: #7D8587;
-  color: white;
-  width: 320px;
-  height: 210px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 
 .special-desc {
   padding: 30px;
   background-color: white;
+  
+  .name {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+  
+  .price {
+    color: #FEA100;
+    font-size: 1.4em;
+    font-weight: 800;
+  }
 }
 
-.special-name {
-  font-size: 1.4em;
-  font-weight: bold;
-}
-
-.special-price {
-  color: #FEA100;
-  font-size: 1.4em;
-  font-weight: 800;
-}
 
 .special2 {
   z-index: -1;
   transform: translateX(-50px);
   box-shadow: 24px 33px 100px -12px rgba(0, 0, 0, 0.3);
+  
+  .image {
+    background-color: #7D8587;
+    color: white;
+    width: 320px;
+    height: 172px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
-.special2-image {
-  background-color: #7D8587;
-  color: white;
-  width: 320px;
-  height: 172px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 
 .reservation {
   height: 550px;
   background-color: #565F61;
   display: flex;
   justify-content: center;
-}
+  
+  .elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-.reservation-elements {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+    .image1 {
+      height: 293px;
+      width: 293px;
+      background-color: #7D8587;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      transform: translateY(-170px);
+    }
 
-.reservation-image1 {
-  height: 293px;
-  width: 293px;
-  background-color: #7D8587;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  transform: translateY(-170px);
-}
+    .image2 {
+      height: 234px;
+      width: 241px;
+      background-color: #7D8587;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      transform: translateY(180px);
+    }
 
-.reservation-image2 {
-  height: 234px;
-  width: 241px;
-  background-color: #7D8587;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  transform: translateY(180px);
-}
-
-.reservation-center {
-  width: 45vw;
-  padding: 0 15px;
+    .center {
+      width: 45vw;
+      padding: 0 15px;
+    }
+  }
 }
 
 .reservation-title {
@@ -280,21 +285,21 @@
 
 .reservation-data {
   display: flex;
-}
-
-.reservation-data1, .reservation-data2 {
-  display: flex;
-  flex-direction: column;
-}
-
-.reservation-data-space {
-  background-color: white;
-  width: 400px;
-  height: 55px;
-  margin: 5px 15px;
-  border-radius: 3px;
-  display: flex;
-  align-items: center;
+  
+  .data1, .data2 {
+    display: flex;
+    flex-direction: column;
+    
+    .data-space {
+      background-color: white;
+      width: 400px;
+      height: 55px;
+      margin: 5px 15px;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+    }
+  }
 }
 
 .question-mark {
@@ -304,45 +309,42 @@
 .reservation-bottom {
   display: flex;
   padding: 30px 15px;
-}
+  
+  .make-reservation {
+    width: 220px;
+    height: 55px;
+    background-color: #FEA100;
+    color: white;
+    font-weight: 500;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.make-reservation-button {
-  width: 220px;
-  height: 55px;
-  background-color: #FEA100;
-  color: white;
-  font-weight: 500;
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .call {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-left: 40px;
+    margin-right: 30px;
+      
+    .call-bottom {
+      color: #FE4C8D;
+    }
+  }
 
-.reservation-phone {
-  color: white;
-  font-size: 1.5em;
-  font-weight: 600;
-}
-
-.reservation-call {
-  height: 55px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  color: white;
-  margin-left: 40px;
-  margin-right: 30px;
-}
-
-.reservation-call-bottom {
-  color: #FE4C8D;
-}
-
-.reservation-phone {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .phone {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .happy-clients {
@@ -351,29 +353,30 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  
+  .title {
+    font-size: 2.5em;
+    font-weight: 600;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .image {
+      background-color: #7D8587;
+      color: white;
+      height: 295px;
+      width: 269px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
 }
 
-.happyc-section-title {
-  font-size: 2.5em;
-  font-weight: 600;
-}
-
-.happyc-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.happyc-image {
-  background-color: #7D8587;
-  color: white;
-  height: 295px;
-  width: 269px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 
 .quote-left {
   height: 295px;
@@ -395,17 +398,17 @@
   flex-direction: column;
   justify-content: space-between;
   margin: 20px;
-}
-
-.happyc-title {
-  font-size: 1.5em;
-  font-weight: 600;
-  padding: 15px 0 15px 0;
-}
-
-.happyc-text {
-  word-spacing: 0.4em;
-  line-height: 30px;
+  
+  .title {
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 15px 0 15px 0;
+  }
+  
+  .text {
+    word-spacing: 0.4em;
+    line-height: 30px;
+  }
 }
 
 .happyc-author {
@@ -427,22 +430,23 @@
   align-items: center;
   flex-direction: column;
   background-color: #EDF1F3;
+  
+  .title {
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: 600;
+  }
+  
+  .images {
+    height: 340px;
+    color: white;
+    display: flex;
+  }
 }
 
-.gallery-title {
-  height: 150px;
-  display: flex;
-  align-items: flex-end;
-  padding-bottom: 20px;
-  font-size: 2.5em;
-  font-weight: 600;
-}
-
-.gallery-images {
-  height: 340px;
-  color: white;
-  display: flex;
-}
 
 .img-size-s {
   height: 340px;
@@ -479,40 +483,40 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
+  
+  .title {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 150px;
+  }
+  
+  .dates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 0 30px;
 
-.opening-title {
-  font-size: 2em;
-  font-weight: bold;
-  margin: 0 150px;
-}
-
-.opening-dates {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  font-size: 1.3em;
-  font-weight: 600;
-  margin: 0 30px;
-}
-
-.opening-hours {
-  color:#FEA100;
-  font-size: 1.5em;
-}
-
-.opening-image {
-  height: 210px;
-  width: 210px;
-  background-color: #7D8587;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-left: 50px;
-  transform: translateY(40px);
+    .hours {
+      color:#FEA100;
+      font-size: 1.5em;
+    }
+  }
+  
+  .image {
+    height: 210px;
+    width: 210px;
+    background-color: #7D8587;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+    transform: translateY(40px);
+  }
 }
 
 .footer {
@@ -527,13 +531,14 @@
 .navigation, .news-letter, .app-availability {
   height: 250px;
   margin: 0 65px;
+  
+  .title {
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
 }
 
-.navi-title, .news-title, .app-av-title {
-  font-size: 1.6em;
-  font-weight: 600;
-  margin-bottom: 30px;
-}
 
 .navi-elements {
   line-height: 30px;
@@ -549,16 +554,17 @@
 .news-input {
   display: flex;
   align-items: center;
+  
+  .box {
+    width: 310px;
+    height: 50px;
+    border: 2px solid #52535E;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+  }
 }
 
-.news-inputbox {
-  width: 310px;
-  height: 50px;
-  border: 2px solid #52535E;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-}
 
 .news-que {
   color:#FEA100;
@@ -581,17 +587,18 @@
 .news-boxes {
   display: flex;
   margin-top: 40px;
+  
+  .box {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin: 0 5px;
+  }
 }
 
-.news-box {
-  height: 50px;
-  width: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100%;
-  margin: 0 5px;
-}
 
 .blue-dark {
   background-color: #3B5998;
