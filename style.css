@@ -45,22 +45,31 @@
   align-items: center;
 }
 
-.nav-list > li {
+.nav-list > li > a {
   margin: 0 15px;
   font-size: 1em;
+  color: white;
+}
+.nav-list > li > a:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
 }
 
 .book-table {
   height: 35px;
   background: #FEA100;
   outline: #FEA100 solid 3px;
-  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 6px 25px;
   border-radius: 4px;
   border: 1px solid #FFFFFF;
+  color: white;
 }
 
 .icon-plate {
