@@ -1,0 +1,52 @@
+.home {
+  color: white;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  
+  .elements {
+    width: 65vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.bg-image {
+  height: 750px;
+  width: 100%;
+  background-color: $grey;
+}
+
+.home-center {
+  margin: 100px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-main-text {
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.home-lower-text {
+  font-size: 3em;
+}
+
+.call-us {
+  text-align: center;
+  color: $orange;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1em;
+}
+
+.phone-number {
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-bottom: 30px;
+}

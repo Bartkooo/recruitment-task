@@ -1,0 +1,114 @@
+.footer {
+  height: 510px;
+  background-color: $dark-blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation,
+.news-letter,
+.app-availability {
+  height: 250px;
+  margin: 0 65px;
+
+  .title {
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+}
+
+.navi-elements {
+  line-height: 30px;
+  color: $blue-white;
+}
+
+.news-desc {
+  font-size: 0.8em;
+  color: $blue-white;
+  margin: 15px 0;
+}
+
+.news-input {
+  display: flex;
+  align-items: center;
+
+  .box {
+    width: 310px;
+    height: 50px;
+    border: 2px solid $xd;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.news-que {
+  color: $orange;
+  margin: 0 20px;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.sub-button {
+  background-color: $orange;
+  width: 149px;
+  height: 50px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.news-boxes {
+  display: flex;
+  margin-top: 40px;
+
+  .box {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin: 0 5px;
+  }
+}
+
+.blue-dark {
+  background-color: $blue;
+}
+
+.blue {
+  background-color: $light-blue;
+}
+
+.red {
+  background-color: $red;
+}
+
+.app-source {
+  width: 220px;
+  height: 60px;
+  background: $xd;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.source-img {
+  margin: 0 20px;
+}
+
+.av-on {
+  font-size: 0.8em;
+}
+
+.source-name {
+  font-size: 1.4em;
+  font-weight: 500;
+}

@@ -1,0 +1,40 @@
+.opening {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .title {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 150px;
+  }
+
+  .dates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 0 30px;
+
+    .hours {
+      color: $orange;
+      font-size: 1.5em;
+    }
+  }
+
+  .image {
+    height: 210px;
+    width: 210px;
+    background-color: $grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+    transform: translateY(40px);
+  }
+}

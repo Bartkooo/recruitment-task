@@ -1,0 +1,100 @@
+.menu {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .elements {
+    width: 60vw;
+    display: flex;
+  }
+}
+
+.food-menu,
+.today-special {
+  width: 30vw;
+}
+
+.food-menu-title,
+.today-special-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.dish {
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+  padding-bottom: 45px;
+}
+
+.dish-main-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+.price {
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+.special-elements {
+  display: flex;
+  align-items: center;
+}
+
+.special1 {
+  box-shadow: 77px 29px 91px -9px rgba(0, 0, 0, 0.3);
+
+  .image {
+    background-color: $grey;
+    color: white;
+    width: 320px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.special-desc {
+  padding: 30px;
+  background-color: white;
+
+  .name {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+
+  .price {
+    color: $orange;
+    font-size: 1.4em;
+    font-weight: 800;
+  }
+}
+
+.special2 {
+  z-index: -1;
+  transform: translateX(-50px);
+  box-shadow: 24px 33px 100px -12px rgba(0, 0, 0, 0.3);
+
+  .image {
+    background-color: $grey;
+    color: white;
+    width: 320px;
+    height: 172px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
