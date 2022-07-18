@@ -8,22 +8,44 @@
   height: 100vh;
 }
 
-.navbar {
-  background-color: #7D8587;
-  color: white;
-  height: 100px;
+.hidden {
+  display: none;
+}
+
+.bg-image {
+  height: 750px;
   width: 100%;
+  background-color: #7D8587;
+}
+
+.home {
+  color: white;
+  height: 750px;
   display: flex;
   justify-content: center;
   
   .elements {
     width: 65vw;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.navbar {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  
+  .nav-elements {
+    width: 65vw;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
-
 }
 
 .logo {
@@ -79,23 +101,6 @@ a {
   padding-right: 10px;
 }
 
-.home {
-  background-color: #7D8587;
-  color: white;
-  height: 650px;
-  display: flex;
-  justify-content: center;
-  
-  .elements {
-    width: 60vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-  }
-}
-
 .home-center {
   margin: 100px 0;
   width: 100%;
@@ -124,6 +129,7 @@ a {
 .phone-number {
   font-size: 2.5em;
   font-weight: 600;
+  margin-bottom: 30px;
 }
 
 .menu {
@@ -436,14 +442,15 @@ a {
 
 .gallery {
   height: 640px;
+  width: 100%;
   display: flex;
-  align-items: center;
   flex-direction: column;
   background-color: #EDF1F3;
   
   .title {
     height: 150px;
     display: flex;
+    justify-content: center;
     align-items: flex-end;
     padding-bottom: 20px;
     font-size: 2.5em;
@@ -452,12 +459,19 @@ a {
   
   .images {
     height: 340px;
+    width: 100%;
     color: white;
     display: flex;
-    width: 100%;
+    flex-direction: row;
   }
 }
 
+.gallery-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 .img-size-s {
   height: 340px;
@@ -472,13 +486,6 @@ a {
 .img-size-l {
   height: 340px;
   width: 471px;
-}
-
-.gallery-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 .color1 {

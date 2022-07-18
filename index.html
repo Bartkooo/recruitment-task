@@ -11,42 +11,41 @@
   <title>Luxury Restaurant</title>
 </head>
 <body>
-  <nav class='navbar'>
-    <div class='elements'>
-      <div class='logo'>
-        <img src='./icons/branch-left.png' width='70'></img>
-        <div>
-          <div class='logo-up'>LUXURY</div>
-          <div class='logo-down'>RESTAURANT</div>
+  <div class='bg-image' id='bg-image'>
+    <div class='home' id='home'>
+      <div class='elements'>
+        <nav class='navbar'>
+          <div class='nav-elements'>
+            <div class='logo'>
+              <img src='./icons/branch-left.png' width='70'></img>
+              <div>
+                <div class='logo-up'>LUXURY</div>
+                <div class='logo-down'>RESTAURANT</div>
+              </div>
+              <img src='./icons/branch-right.png' width='70'></img>
+            </div>
+            <ul class='nav-list'>
+              <li><a href='#home'>HOME</a></li>
+              <li><a href='#menu'>MENU</a></li>
+              <li><a href='#reservation'>RESERVATION</a></li>
+              <li><a>RECIPE</a></li>
+              <li><a href='#blog'>BLOG</a></li>
+              <li><a href='#pages'>PAGES</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+              <li class='shopping-cart'><img src='./icons/shopping-cart.png' width='25' alt='logo' width='20'></img><img src='./icons/sort-down.png'></img></li>
+            </ul>
+          <a href='#reservation'>
+            <div class='book-table'><img src='./icons/icon_plate.png' class='icon-plate'></img>BOOK YOUR TABLE</div>
+          </a>
         </div>
-        <img src='./icons/branch-right.png' width='70'></img>
-      </div>
-      <ul class='nav-list'>
-        <li><a href='#home'>HOME</a></li>
-        <li><a href='#menu'>MENU</a></li>
-        <li><a href='#reservation'>RESERVATION</a></li>
-        <li><a>RECIPE</a></li>
-        <li><a href='#blog'>BLOG</a></li>
-        <li><a href='#pages'>PAGES</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-        <li class='shopping-cart'><img src='./icons/shopping-cart.png' width='25' alt='logo' width='20'></img><img src='./icons/sort-down.png'></img></li>
-      </ul>
-      <a href='#reservation'>
-        <div class='book-table'><img src='./icons/icon_plate.png' class='icon-plate'></img>BOOK YOUR TABLE</div>
-      </a>
-    </div>
-  </nav>
-
-  <div class='home' id='home'>
-    <div class='elements'>
-      <div class='home-image'>IMAGE<br>1970 X 750</div>
+      </nav>
       <div class='home-center'>
-        <div><img src='./icons/back.png'></img></div>
+        <div><img src='./icons/back.png' id='arrow-left'></img></div>
         <div class='home-text'>
           <div class='home-main-text'>Taste your fav dish</div>
           <div class='home-lower-text'>from luxury restaurant.</div>
         </div>
-        <div><img src='./icons/forward.png'></img></div>
+        <div><img src='./icons/forward.png' id='arrow-right'></img></div>
       </div>
       <div>
         <img src='./icons/icon_phone.png' width='35'></img>
@@ -55,7 +54,8 @@
       </div>
     </div>
   </div>
-
+</div>
+  
   <div class='menu' id='menu'>
     <div class='elements'>
       <div class='food-menu'>
@@ -281,5 +281,7 @@
       </div>
     </div>
   </div>
+
+  <script src='script.js'></script>
 </body>
 </html>
