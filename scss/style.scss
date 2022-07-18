@@ -15,7 +15,7 @@
 .bg-image {
   height: 750px;
   width: 100%;
-  background-color: #7D8587;
+  background-color: #7d8587;
 }
 
 .home {
@@ -23,7 +23,7 @@
   height: 750px;
   display: flex;
   justify-content: center;
-  
+
   .elements {
     width: 65vw;
     display: flex;
@@ -38,7 +38,7 @@
   height: 100px;
   display: flex;
   justify-content: center;
-  
+
   .nav-elements {
     width: 65vw;
     display: flex;
@@ -54,7 +54,7 @@
 
 .logo-up {
   font-size: 2.3em;
-  color: #FEA100;
+  color: #fea100;
   font-weight: 700;
 }
 
@@ -86,14 +86,14 @@ a {
 
 .book-table {
   height: 35px;
-  background: #FEA100;
-  outline: #FEA100 solid 3px;
+  background: #fea100;
+  outline: #fea100 solid 3px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 6px 25px;
   border-radius: 4px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   color: white;
 }
 
@@ -119,7 +119,7 @@ a {
 
 .call-us {
   text-align: center;
-  color: #FEA100;
+  color: #fea100;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -137,19 +137,20 @@ a {
   width: 100%;
   display: flex;
   justify-content: center;
-  
+
   .elements {
     width: 60vw;
     display: flex;
   }
 }
 
-
-.food-menu, .today-special {
+.food-menu,
+.today-special {
   width: 30vw;
 }
 
-.food-menu-title, .today-special-title {
+.food-menu-title,
+.today-special-title {
   font-size: 2.5em;
   font-weight: bold;
   padding-top: 80px;
@@ -163,7 +164,7 @@ a {
   padding-bottom: 45px;
 }
 
-.dish-main-info{
+.dish-main-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -182,7 +183,7 @@ a {
 .explore-menu {
   width: 220px;
   height: 55px;
-  background-color: #FEA100;
+  background-color: #fea100;
   color: white;
   font-weight: 800;
   border-radius: 4px;
@@ -198,9 +199,9 @@ a {
 
 .special1 {
   box-shadow: 77px 29px 91px -9px rgba(0, 0, 0, 0.3);
-  
+
   .image {
-    background-color: #7D8587;
+    background-color: #7d8587;
     color: white;
     width: 320px;
     height: 210px;
@@ -211,31 +212,29 @@ a {
   }
 }
 
-
 .special-desc {
   padding: 30px;
   background-color: white;
-  
+
   .name {
     font-size: 1.4em;
     font-weight: bold;
   }
-  
+
   .price {
-    color: #FEA100;
+    color: #fea100;
     font-size: 1.4em;
     font-weight: 800;
   }
 }
 
-
 .special2 {
   z-index: -1;
   transform: translateX(-50px);
   box-shadow: 24px 33px 100px -12px rgba(0, 0, 0, 0.3);
-  
+
   .image {
-    background-color: #7D8587;
+    background-color: #7d8587;
     color: white;
     width: 320px;
     height: 172px;
@@ -246,13 +245,12 @@ a {
   }
 }
 
-
 .reservation {
   height: 550px;
-  background-color: #565F61;
+  background-color: #565f61;
   display: flex;
   justify-content: center;
-  
+
   .elements {
     display: flex;
     justify-content: center;
@@ -261,7 +259,7 @@ a {
     .image1 {
       height: 293px;
       width: 293px;
-      background-color: #7D8587;
+      background-color: #7d8587;
       color: white;
       display: flex;
       justify-content: center;
@@ -273,7 +271,7 @@ a {
     .image2 {
       height: 234px;
       width: 241px;
-      background-color: #7D8587;
+      background-color: #7d8587;
       color: white;
       display: flex;
       justify-content: center;
@@ -301,11 +299,12 @@ a {
 
 .reservation-data {
   display: flex;
-  
-  .data1, .data2 {
+
+  .data1,
+  .data2 {
     display: flex;
     flex-direction: column;
-    
+
     .data-space {
       background-color: white;
       width: 400px;
@@ -325,11 +324,11 @@ a {
 .reservation-bottom {
   display: flex;
   padding: 30px 15px;
-  
+
   .make-reservation {
     width: 220px;
     height: 55px;
-    background-color: #FEA100;
+    background-color: #fea100;
     color: white;
     font-weight: 500;
     border-radius: 4px;
@@ -347,9 +346,9 @@ a {
     color: white;
     margin-left: 40px;
     margin-right: 30px;
-      
+
     .call-bottom {
-      color: #FE4C8D;
+      color: #fe4c8d;
     }
   }
 
@@ -369,19 +368,19 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
+
   .title {
     font-size: 2.5em;
     font-weight: 600;
   }
-  
+
   .content {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     .image {
-      background-color: #7D8587;
+      background-color: #7d8587;
       color: white;
       height: 295px;
       width: 269px;
@@ -392,7 +391,6 @@ a {
     }
   }
 }
-
 
 .quote-left {
   height: 295px;
@@ -414,13 +412,13 @@ a {
   flex-direction: column;
   justify-content: space-between;
   margin: 20px;
-  
+
   .title {
     font-size: 1.5em;
     font-weight: 600;
     padding: 15px 0 15px 0;
   }
-  
+
   .text {
     word-spacing: 0.4em;
     line-height: 30px;
@@ -437,7 +435,7 @@ a {
 }
 
 .que {
-  color: #FEA100;
+  color: #fea100;
 }
 
 .gallery {
@@ -445,8 +443,8 @@ a {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #EDF1F3;
-  
+  background-color: #edf1f3;
+
   .title {
     height: 150px;
     display: flex;
@@ -456,7 +454,7 @@ a {
     font-size: 2.5em;
     font-weight: 600;
   }
-  
+
   .images {
     height: 340px;
     width: 100%;
@@ -489,11 +487,11 @@ a {
 }
 
 .color1 {
-  background-color: #7D8587;
+  background-color: #7d8587;
 }
 
 .color2 {
-  background-color: #6E7678;
+  background-color: #6e7678;
 }
 
 .opening {
@@ -501,13 +499,13 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   .title {
     font-size: 2em;
     font-weight: bold;
     margin: 0 150px;
   }
-  
+
   .dates {
     display: flex;
     flex-direction: column;
@@ -518,15 +516,15 @@ a {
     margin: 0 30px;
 
     .hours {
-      color:#FEA100;
+      color: #fea100;
       font-size: 1.5em;
     }
   }
-  
+
   .image {
     height: 210px;
     width: 210px;
-    background-color: #7D8587;
+    background-color: #7d8587;
     color: white;
     display: flex;
     align-items: center;
@@ -546,10 +544,12 @@ a {
   align-items: center;
 }
 
-.navigation, .news-letter, .app-availability {
+.navigation,
+.news-letter,
+.app-availability {
   height: 250px;
   margin: 0 65px;
-  
+
   .title {
     font-size: 1.6em;
     font-weight: 600;
@@ -557,42 +557,40 @@ a {
   }
 }
 
-
 .navi-elements {
   line-height: 30px;
-  color: #ADB2B7;
+  color: #adb2b7;
 }
 
 .news-desc {
   font-size: 0.8em;
-  color: #ADB2B7;
+  color: #adb2b7;
   margin: 15px 0;
 }
 
 .news-input {
   display: flex;
   align-items: center;
-  
+
   .box {
     width: 310px;
     height: 50px;
-    border: 2px solid #52535E;
+    border: 2px solid #52535e;
     border-radius: 4px;
     display: flex;
     align-items: center;
   }
 }
 
-
 .news-que {
-  color:#FEA100;
+  color: #fea100;
   margin: 0 20px;
   font-size: 1.2em;
   font-weight: 700;
 }
 
 .sub-button {
-  background-color: #FEA100;
+  background-color: #fea100;
   width: 149px;
   height: 50px;
   border-radius: 4px;
@@ -605,7 +603,7 @@ a {
 .news-boxes {
   display: flex;
   margin-top: 40px;
-  
+
   .box {
     height: 50px;
     width: 50px;
@@ -617,23 +615,22 @@ a {
   }
 }
 
-
 .blue-dark {
-  background-color: #3B5998;
+  background-color: #3b5998;
 }
 
 .blue {
-  background-color: #55ACEE;
+  background-color: #55acee;
 }
 
 .red {
-  background-color: #DD4B39;
+  background-color: #dd4b39;
 }
 
 .app-source {
   width: 220px;
   height: 60px;
-  background: #52535E;
+  background: #52535e;
   display: flex;
   align-items: center;
   border-radius: 4px;

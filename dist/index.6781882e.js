@@ -8,7 +8,7 @@ const colors = [
     "#4fab3f",
     "#825338",
     "#533882",
-    "#828138"
+    "#828138", 
 ];
 let x = 0;
 function changeIMGleft() {
