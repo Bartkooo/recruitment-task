@@ -40,7 +40,6 @@
 }
 
 .nav-list > li > a:hover {
-  cursor: pointer;
   font-weight: bold;
 }
 
@@ -57,7 +56,8 @@ a {
   outline: 3px solid #fea100;
   justify-content: center;
   align-items: center;
-  padding: 6px 25px;
+  margin-right: 5px;
+  padding: 6px 20px;
   display: flex;
 }
 
@@ -347,17 +347,16 @@ a {
 .home-center {
   width: 100%;
   justify-content: space-between;
-  margin: 100px 0;
   display: flex;
 }
 
 .home-main-text {
-  font-size: 4em;
+  font-size: 4.5em;
   font-weight: 700;
 }
 
 .home-lower-text {
-  font-size: 3em;
+  font-size: 3.5em;
 }
 
 .call-us {
@@ -620,6 +619,7 @@ a {
 }
 
 * {
+  cursor: default;
   margin: 0;
   padding: 0;
   font-family: Roboto, sans-serif;
