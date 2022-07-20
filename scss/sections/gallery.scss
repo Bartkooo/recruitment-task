@@ -1,6 +1,5 @@
 .gallery {
   height: 640px;
-  width: 100%;
   display: flex;
   flex-direction: column;
   background-color: $blue-white;
@@ -17,10 +16,11 @@
 
   .images {
     height: 340px;
-    width: 100%;
     color: white;
     display: flex;
     flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
   }
 }
 
@@ -33,17 +33,17 @@
 
 .img-size-s {
   height: 340px;
-  width: 187px;
+  min-width: 187px;
 }
 
 .img-size-m {
   height: 340px;
-  width: 370px;
+  min-width: 370px;
 }
 
 .img-size-l {
   height: 340px;
-  width: 471px;
+  min-width: 471px;
 }
 
 .color1 {

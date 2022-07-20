@@ -268,7 +268,6 @@ a {
 
 .gallery {
   height: 640px;
-  width: 100%;
   background-color: #edf1f3;
   flex-direction: column;
   display: flex;
@@ -286,10 +285,11 @@ a {
 
 .gallery .images {
   height: 340px;
-  width: 100%;
   color: #fff;
   flex-direction: row;
   display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .gallery-image {
@@ -301,17 +301,17 @@ a {
 
 .img-size-s {
   height: 340px;
-  width: 187px;
+  min-width: 187px;
 }
 
 .img-size-m {
   height: 340px;
-  width: 370px;
+  min-width: 370px;
 }
 
 .img-size-l {
   height: 340px;
-  width: 471px;
+  min-width: 471px;
 }
 
 .color1 {
