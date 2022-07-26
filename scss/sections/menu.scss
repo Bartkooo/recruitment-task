@@ -4,15 +4,30 @@
   display: flex;
   justify-content: center;
 
+  @media only screen and (max-width: 1180px) {
+    height: 1100px;
+  }
+
   .elements {
     width: 60vw;
     display: flex;
+
+    @media only screen and (max-width: 1180px) {
+      width: 90vw;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
   }
 }
 
 .food-menu,
 .today-special {
   width: 30vw;
+
+  @media only screen and (max-width: 1180px) {
+    width: 100%;
+  }
 }
 
 .food-menu-title,
@@ -28,6 +43,10 @@
   flex-direction: column;
   padding-right: 100px;
   padding-bottom: 45px;
+
+  @media only screen and (max-width: 1180px) {
+    padding-right: 20px;
+  }
 }
 
 .dish-main-info {
@@ -63,6 +82,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    @media only screen and (max-width: 600px) {
+      width: 200px;
+      height: 150px;
+    }
   }
 }
 
@@ -70,15 +94,28 @@
   padding: 30px;
   background-color: white;
 
+  @media only screen and (max-width: 600px) {
+    padding: 15px;
+    padding-left: 40px;
+  }
+
   .name {
     font-size: 1.4em;
     font-weight: bold;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 1.2em;
+    }
   }
 
   .price {
     color: $orange;
     font-size: 1.4em;
     font-weight: 800;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 1em;
+    }
   }
 }
 
@@ -96,5 +133,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    @media only screen and (max-width: 600px) {
+      width: 200px;
+      height: 120px;
+    }
   }
 }

@@ -12,7 +12,7 @@
   display: flex;
 }
 
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 1000px) {
   .navbar .nav-elements {
     flex-direction: column;
   }
@@ -25,7 +25,7 @@
   display: flex;
 }
 
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 1000px) {
   .navbar .nav-elements .mobile-nav {
     width: 90vw;
     margin: 1em 0;
@@ -42,7 +42,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 1000px) {
   .hamburger {
     display: block;
   }
@@ -65,7 +65,7 @@
   display: flex;
 }
 
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 1000px) {
   .nav-list {
     line-height: 1.5em;
     display: none;
@@ -502,13 +502,34 @@ a {
   display: flex;
 }
 
+@media only screen and (max-width: 1180px) {
+  .menu {
+    height: 1100px;
+  }
+}
+
 .menu .elements {
   width: 60vw;
   display: flex;
 }
 
+@media only screen and (max-width: 1180px) {
+  .menu .elements {
+    width: 90vw;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
 .food-menu, .today-special {
   width: 30vw;
+}
+
+@media only screen and (max-width: 1180px) {
+  .food-menu, .today-special {
+    width: 100%;
+  }
 }
 
 .food-menu-title, .today-special-title {
@@ -523,6 +544,12 @@ a {
   padding-bottom: 45px;
   padding-right: 100px;
   display: flex;
+}
+
+@media only screen and (max-width: 1180px) {
+  .dish {
+    padding-right: 20px;
+  }
 }
 
 .dish-main-info {
@@ -561,9 +588,22 @@ a {
   display: flex;
 }
 
+@media only screen and (max-width: 600px) {
+  .special1 .image {
+    width: 200px;
+    height: 150px;
+  }
+}
+
 .special-desc {
   background-color: #fff;
   padding: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .special-desc {
+    padding: 15px 15px 15px 40px;
+  }
 }
 
 .special-desc .name {
@@ -571,10 +611,22 @@ a {
   font-weight: bold;
 }
 
+@media only screen and (max-width: 600px) {
+  .special-desc .name {
+    font-size: 1.2em;
+  }
+}
+
 .special-desc .price {
   color: #fea100;
   font-size: 1.4em;
   font-weight: 800;
+}
+
+@media only screen and (max-width: 600px) {
+  .special-desc .price {
+    font-size: 1em;
+  }
 }
 
 .special2 {
@@ -592,6 +644,13 @@ a {
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .special2 .image {
+    width: 200px;
+    height: 120px;
+  }
 }
 
 .opening {
