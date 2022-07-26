@@ -5,16 +5,15 @@
 }
 
 .navbar .nav-elements {
-  width: 65vw;
+  width: 100vw;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   display: flex;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 970px) {
   .navbar .nav-elements {
-    width: 100vw;
     flex-direction: column;
   }
 }
@@ -26,7 +25,7 @@
   display: flex;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 970px) {
   .navbar .nav-elements .mobile-nav {
     width: 90vw;
     margin: 1em 0;
@@ -43,7 +42,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 970px) {
   .hamburger {
     display: block;
   }
@@ -66,7 +65,7 @@
   display: flex;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 970px) {
   .nav-list {
     line-height: 1.5em;
     display: none;
@@ -82,6 +81,12 @@
   color: #fff;
   margin: 0 15px;
   font-size: 1em;
+}
+
+@media only screen and (max-width: 1180px) {
+  .nav-list > li > a {
+    margin: 0 7px;
+  }
 }
 
 .nav-list > li > a:hover {
@@ -104,6 +109,13 @@ a {
   margin-left: 10px;
   padding: 6px 20px;
   display: flex;
+}
+
+@media only screen and (max-width: 1180px) {
+  .book-table {
+    margin-left: 7px;
+    padding: 3px 10px;
+  }
 }
 
 .icon-plate {
@@ -375,7 +387,7 @@ a {
 }
 
 .home .elements {
-  width: 65vw;
+  width: 100vw;
   text-align: center;
   flex-direction: column;
   justify-content: space-between;
@@ -391,8 +403,13 @@ a {
 
 .home-center {
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   display: flex;
+}
+
+.home-text {
+  margin: 0 12em;
 }
 
 .home-main-text {

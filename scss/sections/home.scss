@@ -5,7 +5,7 @@
   justify-content: center;
   
   .elements {
-    width: 65vw;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +23,12 @@
 .home-center {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-text {
+  margin: 0 12em;
 }
 
 .home-main-text {
