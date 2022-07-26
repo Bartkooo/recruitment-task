@@ -29,15 +29,46 @@
 
 .home-text {
   margin: 0 12em;
+
+  @media only screen and (max-width: 1180px) {
+    margin: 0 6em;
+  }
+
+  @media only screen and (max-width: 600px) {
+    margin: 0 1em;
+  }
 }
 
 .home-main-text {
   font-size: 4.5em;
   font-weight: 700;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 3.5em;
+  }
 }
 
 .home-lower-text {
   font-size: 3.5em;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 2.5em;
+  }
+}
+
+#arrow-left, #arrow-right {
+  width: 110px;
+  height: 110px;
+
+  @media only screen and (max-width: 1180px) {
+    width: 90px;
+    height: 90px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 .call-us {
@@ -47,10 +78,18 @@
   justify-content: center;
   flex-direction: column;
   font-size: 1em;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 0.7em;
+  }
 }
 
 .phone-number {
   font-size: 2.5em;
   font-weight: 600;
   margin-bottom: 30px;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 1.7em;
+  }
 }
