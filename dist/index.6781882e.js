@@ -1,7 +1,11 @@
 const left_arrow = document.getElementById("arrow-left");
 const right_arrow = document.getElementById("arrow-right");
+const hamburger = document.getElementById("hamburger");
 left_arrow.addEventListener("click", changeIMGleft);
 right_arrow.addEventListener("click", changeIMGright);
+hamburger.addEventListener("click", ()=>{
+    document.getElementById("nav-list").classList.toggle("active");
+});
 const colors = [
     "#7D8587",
     "#41636c",
