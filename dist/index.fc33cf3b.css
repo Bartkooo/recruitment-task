@@ -168,6 +168,12 @@ a {
   display: flex;
 }
 
+@media only screen and (max-width: 600px) {
+  .happy-clients .content .image {
+    display: none;
+  }
+}
+
 .quote-left {
   height: 295px;
   align-items: flex-start;
@@ -175,10 +181,23 @@ a {
   display: flex;
 }
 
+@media only screen and (max-width: 600px) {
+  .quote-left {
+    height: 350px;
+    padding: 0;
+  }
+}
+
 .quote-right {
   height: 295px;
   align-items: center;
   display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .quote-right {
+    height: 350px;
+  }
 }
 
 .happyc-main {
@@ -188,6 +207,13 @@ a {
   justify-content: space-between;
   margin: 20px;
   display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .happyc-main {
+    width: 70vw;
+    height: 350px;
+  }
 }
 
 .happyc-main .title {
