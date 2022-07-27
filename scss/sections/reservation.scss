@@ -19,6 +19,10 @@
       align-items: center;
       flex-direction: column;
       transform: translateY(-170px);
+
+      @media only screen and (max-width: 600px) {
+        display: none;
+      }
     }
 
     .image2 {
@@ -31,11 +35,20 @@
       align-items: center;
       flex-direction: column;
       transform: translateY(180px);
+
+      @media only screen and (max-width: 600px) {
+        display: none;
+      }
     }
 
     .center {
       width: 45vw;
       padding: 0 15px;
+
+      @media only screen and (max-width: 600px) {
+        width: 100vw;
+        padding: 0;
+      }
     }
   }
 }
@@ -48,10 +61,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media only screen and (max-width: 600px) {
+    margin-top: 40px;
+  }
 }
 
 .reservation-data {
   display: flex;
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   .data1,
   .data2 {
@@ -66,6 +89,12 @@
       border-radius: 3px;
       display: flex;
       align-items: center;
+
+      @media only screen and (max-width: 600px) {
+        width: 300px;
+        height: 40px;
+        margin-bottom: 5px;
+      }
     }
   }
 }
@@ -78,27 +107,46 @@
   display: flex;
   padding: 30px 15px;
 
-  .call {
-    height: 55px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  @media only screen and (max-width: 600px) {
     flex-direction: column;
-    color: white;
-    margin-left: 40px;
-    margin-right: 30px;
-
-    .call-bottom {
-      color: $pink;
-    }
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
   }
 
-  .phone {
-    color: white;
-    font-size: 1.5em;
-    font-weight: 600;
+  .call-us {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    .call-txt {
+      height: 55px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: white;
+      margin-left: 40px;
+      margin-right: 30px;
+
+      @media only screen and (max-width: 600px) {
+        margin-left: 0;
+        margin-right: 30px;
+      }
+      
+      .call-txt-bottom {
+        color: $pink;
+      }
+    }
+
+    .phone {
+      color: white;
+      font-size: 1.5em;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }
