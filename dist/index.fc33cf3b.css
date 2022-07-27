@@ -528,7 +528,11 @@ a {
 
 @media only screen and (max-width: 1180px) {
   .food-menu, .today-special {
-    width: 100%;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
   }
 }
 
@@ -537,6 +541,14 @@ a {
   padding-bottom: 20px;
   font-size: 2.5em;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 1180px) {
+  .food-menu-title, .today-special-title {
+    justify-content: center;
+    align-items: cente;
+    display: flex;
+  }
 }
 
 .dish {
@@ -548,7 +560,10 @@ a {
 
 @media only screen and (max-width: 1180px) {
   .dish {
-    padding-right: 20px;
+    width: 90vw;
+    justify-content: center;
+    padding-bottom: 45px;
+    padding-right: 0;
   }
 }
 
@@ -571,6 +586,13 @@ a {
 .special-elements {
   align-items: center;
   display: flex;
+}
+
+@media only screen and (max-width: 1180px) {
+  .special-elements {
+    justify-content: center;
+    margin-left: 40px;
+  }
 }
 
 .special1 {
@@ -701,6 +723,12 @@ a {
   display: flex;
 }
 
+@media only screen and (max-width: 1180px) {
+  .reservation {
+    height: 650px;
+  }
+}
+
 .reservation .elements {
   justify-content: center;
   align-items: center;
@@ -719,7 +747,7 @@ a {
   transform: translateY(-170px);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .reservation .elements .image1 {
     display: none;
   }
@@ -737,7 +765,7 @@ a {
   transform: translateY(180px);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .reservation .elements .image2 {
     display: none;
   }
@@ -748,7 +776,7 @@ a {
   padding: 0 15px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .reservation .elements .center {
     width: 100vw;
     padding: 0;
@@ -775,7 +803,7 @@ a {
   display: flex;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1180px) {
   .reservation-data {
     flex-direction: column;
     justify-content: center;
@@ -815,7 +843,7 @@ a {
   display: flex;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .reservation-bottom {
     flex-direction: column;
     justify-content: center;

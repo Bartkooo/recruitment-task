@@ -26,7 +26,11 @@
   width: 30vw;
 
   @media only screen and (max-width: 1180px) {
-    width: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -36,6 +40,12 @@
   font-weight: bold;
   padding-top: 80px;
   padding-bottom: 20px;
+
+  @media only screen and (max-width: 1180px) {
+    display: flex;
+    justify-content: center;
+    align-items: cente
+  }
 }
 
 .dish {
@@ -45,7 +55,10 @@
   padding-bottom: 45px;
 
   @media only screen and (max-width: 1180px) {
-    padding-right: 20px;
+    padding-right: 0;
+    padding-bottom: 45px;
+    justify-content: center;
+    width: 90vw;
   }
 }
 
@@ -68,6 +81,11 @@
 .special-elements {
   display: flex;
   align-items: center;
+
+  @media only screen and (max-width: 1180px) {
+    justify-content: center;
+    margin-left: 40px;
+  }
 }
 
 .special1 {
