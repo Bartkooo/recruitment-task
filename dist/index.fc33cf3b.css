@@ -168,7 +168,7 @@ a {
   display: flex;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .happy-clients .content .image {
     display: none;
   }
@@ -249,9 +249,23 @@ a {
   display: flex;
 }
 
+@media only screen and (max-width: 1100px) {
+  .footer {
+    height: 850px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
 .navigation, .news-letter, .app-availability {
   height: 250px;
   margin: 0 65px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .navigation, .news-letter, .app-availability {
+    margin: 30px 0;
+  }
 }
 
 .navigation .title, .news-letter .title, .app-availability .title {
@@ -285,6 +299,13 @@ a {
   display: flex;
 }
 
+@media only screen and (max-width: 600px) {
+  .news-input .box {
+    width: 250px;
+    height: 40px;
+  }
+}
+
 .news-que {
   color: #fea100;
   margin: 0 20px;
@@ -294,13 +315,20 @@ a {
 
 .sub-button {
   width: 149px;
-  height: 50px;
+  height: 52px;
   background-color: #fea100;
   border-radius: 4px;
   justify-content: center;
   align-items: center;
   margin-left: 5px;
   display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .sub-button {
+    width: 100px;
+    height: 42px;
+  }
 }
 
 .news-boxes {
@@ -720,7 +748,7 @@ a {
   display: flex;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1180px) {
   .opening {
     height: 400px;
     flex-direction: column;
@@ -737,10 +765,16 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin: 30px 0;
+  margin: 0 30px;
   font-size: 1.3em;
   font-weight: 600;
   display: flex;
+}
+
+@media only screen and (max-width: 1180px) {
+  .opening .dates {
+    margin: 30px 0;
+  }
 }
 
 .opening .dates .hours {
@@ -761,7 +795,7 @@ a {
   transform: translateY(40px);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1180px) {
   .opening .image {
     display: none;
   }
