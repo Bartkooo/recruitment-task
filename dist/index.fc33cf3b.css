@@ -1,11 +1,9 @@
 .navbar {
-  width: 100vw;
   justify-content: center;
   display: flex;
 }
 
 .navbar .nav-elements {
-  width: 100vw;
   flex-direction: row;
   justify-content: center;
   align-items: center;
