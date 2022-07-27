@@ -4,6 +4,10 @@
   flex-direction: column;
   background-color: $blue-white;
 
+  @media only screen and (max-width: 600px) {
+    height: 540px;
+  }
+
   .title {
     height: 150px;
     display: flex;
@@ -12,6 +16,10 @@
     padding-bottom: 20px;
     font-size: 2.5em;
     font-weight: 600;
+
+    @media only screen and (max-width: 600px) {
+      height: 100px;
+    }
   }
 
   .images {
